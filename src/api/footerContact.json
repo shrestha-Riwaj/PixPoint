@@ -1,0 +1,17 @@
+[
+    {
+        "icon":"MdPlace",
+        "title":"Find us",
+        "details":"Kathmandu"
+    },
+    {
+        "icon":"IoIosCall",
+        "title":"Phone",
+        "details":"9876543210"
+    },
+    {
+        "icon":"MdEmail",
+        "title":"Email",
+        "details":"mail@gmail.com"
+    }
+]

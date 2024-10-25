@@ -3,8 +3,8 @@ export const Logo = () =>{
     return (
         <>
         {/* Logo */}
-        <div className="">
-            <img className="" src="" alt="PixPoint" />
+        <div className="w-[100]px">
+            <img className="w-[100px]" src="pixpointLogo.png" alt="PixPoint" />
         </div>
         </>
     )

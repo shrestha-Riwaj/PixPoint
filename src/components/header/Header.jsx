@@ -1,6 +1,7 @@
-import Navigation from "../Navigation";
+import Navigation from "./Navigation";
 import { Contact } from "./Contact";
 import { Logo } from "./Logo";
+import { Button } from "../Button";
 
 export default function Header(){
 
@@ -15,7 +16,7 @@ export default function Header(){
         {/* Nav List */}
         <Navigation />
         {/* Contact Us */}
-        <Contact />
+        <Button text={"Contact Us"} />
     </header>
     
     </>
