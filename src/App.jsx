@@ -1,5 +1,5 @@
 import Footer from "./components/Footer"
-import Header from "./components/Header"
+import Header from "./components/header/Header"
 import Navigation from "./components/Navigation"
 import Newsletter from "./components/Newsletter"
 
@@ -11,10 +11,10 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Navigation />
-      <Newsletter />
-      <Footer />
+     <Header />
+      {/* <Navigation /> */}
+      {/* <Newsletter /> */}
+      {/* <Footer /> */}
     </>
   )
 }
