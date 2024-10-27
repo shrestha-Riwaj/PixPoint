@@ -17,11 +17,11 @@ export const Contact = () =>{
         <section>
             <div className="grid grid-cols-3">
                 {
-                    footerContact.map((currentData)=>{
+                    footerContact.map((currentData,index)=>{
                         const {icon, title, details} = currentData;
                         return(
                             <>
-                            <div className="flex items-center gap-[2px] mx-10">
+                            <div key={index} className="flex items-center gap-[2px] mx-10">
                                 <div>
                                     {iconMap[icon]}
                                 </div>

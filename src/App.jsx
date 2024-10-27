@@ -13,6 +13,8 @@ import { Services } from "./components/HomePage/Services"
 import { Service } from "./components/Services/Service"
 
 import './index.css'
+import { HomePage } from "./components/HomePage/HomePage"
+import { BlogPage } from "./components/Blog/BlogPage"
 
 
 function App() {
@@ -20,18 +22,10 @@ function App() {
 
   return (
     <>
-     <Header />
-     <HeroSection />
-     <Principles />
-     <About />
-     {/* <Services /> */}
-      {/* <Navigation /> */}
-      {/* <Newsletter /> */}
-      {/* <Footer /> */}
-      {/* <Contact /> */}
-     {/* <AboutPage /> */}
-     <Service />
-     <ContactInfo />
+      {/* <HomePage /> */}
+      <AboutPage />
+      {/* <BlogPage />
+      <Service /> */}
     </>
   )
 }
