@@ -15,6 +15,7 @@ import { Service } from "./components/Services/Service"
 import './index.css'
 import { HomePage } from "./components/HomePage/HomePage"
 import { BlogPage } from "./components/Blog/BlogPage"
+import { PortfolioPage } from "./components/Portfolio/Portfolio"
 
 
 function App() {
@@ -23,9 +24,10 @@ function App() {
   return (
     <>
       {/* <HomePage /> */}
-      <AboutPage />
-      {/* <BlogPage />
-      <Service /> */}
+      {/* <AboutPage /> */}
+      {/* <Service /> */}
+      {/* <BlogPage /> */}
+      <PortfolioPage />
     </>
   )
 }

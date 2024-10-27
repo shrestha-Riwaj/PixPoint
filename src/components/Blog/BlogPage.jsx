@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer"
 import Header from "../header/Header"
 import { BlogCard } from "./BlogCard"
 import { BlogHeroSection } from "./BlogHeroSection"
@@ -26,6 +27,7 @@ export const BlogPage = ()=>{
             </div>
             
         </section>
+        <Footer/>
         </>
     )
 }

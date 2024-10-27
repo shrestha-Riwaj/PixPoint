@@ -13,17 +13,17 @@ export default function Footer(){
         <div className="grid grid-cols-2 mx-10">
             {/* company logo */}
             <div className="flex flex-col mx-2 my-2 items-center justify-center">
-                <div className="max-w-[100px] mb-1">
+                <div className="max-w-[200px]  mb-1">
                     <img src="pixpointLogo.png" alt="" />
-                    <div className="flex gap-4 mt-4 justify-center items-center">
-                        <a href="#"><FaTiktok /></a>
-                        <a href="#"><FaFacebookSquare /></a>
-                        <a href="#"><FaInstagram /></a>
+                    <div className="flex text-gray-800 gap-4 text-xl my-2 justify-center items-center">
+                        <a className="hover:text-black hover:transition-all duration-150" href="#"><FaTiktok /></a>
+                        <a className=" hover:text-blue-500 hover:transition-all duration-150" href="#"><FaFacebookSquare /></a>
+                        <a className=" hover:text-red-500 hover:transition-all duration-150" href="#"><FaInstagram /></a>
                     </div>
                 </div>    
             </div>
             {/* Newsletter */}
-            <div className="">
+            <div className="my-3 ">
                 <Newsletter />
             </div>
         </div>

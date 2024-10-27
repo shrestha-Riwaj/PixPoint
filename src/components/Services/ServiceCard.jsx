@@ -12,18 +12,21 @@ export const ServiceCard = () =>{
         
         {/* Service card section */}
 
-        <section className=" rounded-md flex flex-wrap justify-between gap-28">
+        <section className="max-w-[1000px] m-auto my-10 rounded-md grid grid-cols-3 gap-2">
             {
                 seriesCard.map((currentData)=>{
                     const {icon, title, desc} = currentData;
                     return(
                         <>
-                        <div className="bg-gray-300 my-4 p-1 rounded-md flex flex-col items-center justify-center px-2 w-1/3 max-w-[260px]">
-                            <div className="w-20 h-20 flex items-center justify-center bg-gray-800 rounded-full">
+                        <div className="bg-gray-300 mb-4 w-[290px] h-auto rounded-md flex flex-col m-1 px-2 py-2  items-center ">
+                            <div className="w-20 h-20 flex items-center justify-center bg-gray-700 rounded-full">
                                 <i>{iconMap[icon]} </i>
                             </div>
+                            <div className="text-center my-2">
                                 <h1 className="font-bold text-lg">{title} </h1>
                                 <p>{desc}</p>
+                            </div>
+                                
                         </div>
 
                         </>
